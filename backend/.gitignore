@@ -7,9 +7,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Runtime data
+.env
+.env.*  # Ignore all env files (e.g., .env.development, .env.production)
+
+# Dependency directories
 node_modules
+
+# Build output
 dist
 dist-ssr
+
+# Local overrides
 *.local
 
 # Editor directories and files
@@ -22,3 +31,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
